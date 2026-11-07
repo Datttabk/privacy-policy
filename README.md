@@ -26,3 +26,9 @@ npm run build
 ```
 
 Includes linked section navigation, active section tracking, a collapsible mobile contents menu, print support, reduced-motion support, and keyboard focus styles. The page uses no analytics or third-party fonts.
+
+## Deploy on Vercel
+
+Import this repository with the Next.js framework preset. The tracked `vercel.json` runs `npm run build:vercel` and uses `.next` as its output directory. Use the repository folder containing this file as the project root.
+
+`npm run build` continues to use Vinext for Sites hosting. Vercel uses the native Next.js build, which generates the manifests required by Vercel.
