@@ -12,7 +12,7 @@ const sections = [
   { id: "retention", title: "Data Retention and Deletion", content: <><p>Personal information is retained only as long as necessary to provide the application's services or meet legal requirements.</p><p>Users may request account deletion and associated data deletion by <a href="#contact">contacting us <ArrowUpRight size={14} /></a>.</p></> },
   { id: "children", title: "Children’s Privacy", content: <p>Discover Vijayapura is not designed to knowingly collect personal information from children without appropriate consent where required by applicable law.</p> },
   { id: "changes", title: "Changes to This Privacy Policy", content: <p>We may update this Privacy Policy from time to time. Any changes will be published on this page.</p> },
-  { id: "contact", title: "Contact Us", content: <><p>For questions or privacy-related requests, contact:</p><dl className="contact-details"><div><dt>App Name</dt><dd>Discover Vijayapura</dd></div><div><dt>Developer / Organization</dt><dd>[Your Organization Name]</dd></div><div><dt>Email</dt><dd>[Your Official Contact Email]</dd></div></dl></> },
+  { id: "contact", title: "Contact Us", content: <><p>For questions or privacy-related requests, contact:</p><dl className="contact-details"><div><dt>App Name</dt><dd>Discover Vijayapura</dd></div><div><dt>Developer / Organization</dt><dd>Discover Vijayapura</dd></div><div><dt>Email</dt><dd><a href="mailto:discovervijayapura@gmail.com">discovervijayapura@gmail.com</a></dd></div></dl></> },
 ];
 
 function Brand() { return <a className="brand" href="#top" aria-label="Discover Vijayapura, back to top"><span className="brand-icon"><Compass size={25} strokeWidth={1.4} /></span><span>Discover <strong>Vijayapura</strong></span></a>; }

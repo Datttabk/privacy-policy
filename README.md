@@ -2,14 +2,13 @@
 
 A responsive privacy policy page using the supplied policy dated 7 November 2026.
 
-## Customize
+## Contact details
 
-Edit the contact details in `app/page.tsx` to replace:
+Developer / Organization: Discover Vijayapura
 
-- `[Your Organization Name]`
-- `[Your Official Contact Email]`
+Email: discovervijayapura@gmail.com
 
-Policy sections are defined in the `sections` array in the same file. Styles, mobile layout, and print styles are in `app/globals.css`.
+Policy sections and contact details are defined in `app/page.tsx`. Styles, mobile layout, and print styles are in `app/globals.css`.
 
 ## Develop
 
